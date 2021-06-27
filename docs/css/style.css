@@ -227,13 +227,15 @@ code, pre {
 
 .features-main .card {
   margin: 0;
-  justify-content: flex-start;
+  flex: 1 1 10rem;
 }
 
 .features-main .card > i {
-  display: inline-block;
-  width: 60px;
-  margin-right: 20px;
+  margin-right: 14px;
+  text-align: center;
+  flex-basis: 60px;
+  flex-grow: 0;
+  flex-shrink: 0;
 }
 
 .features-main .grid {
