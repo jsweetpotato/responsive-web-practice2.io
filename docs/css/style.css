@@ -227,7 +227,7 @@ code, pre {
 
 .features-main .card {
   margin: 0;
-  flex: 1 1 10rem;
+  justify-content: flex-start;
 }
 
 .features-main .card > i {
